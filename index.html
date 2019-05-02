@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/formato.css">
+    <title>Hostel Mandala</title>
+    <link rel="icon" type="img/png" href="http://www.hostelmandala.com.ar/wpimages/wp6e136f76_06.png">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+   
+  
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!-- BARRA DE MENU HORIZONTAL -->
+                <div class="row d-none d-lg-block">
+                    <div class="col-auto">
+                        <ul class="nav fm-nav justify-content-end">
+                        <h1 class="titulo-mandala">Mandala</h1>
+                           <div style="text-align: left"><img src="http://www.hostelmandala.com.ar/wpimages/wp6e136f76_06.png" class="img-circle" alt=""></div>
+                               <li class="nav-item">
+                                   <a href="index.html" class="nav-link active">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./html/quienessomos.html" class="nav-link">Quienes Somos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./html/servicios.html" class="nav-link">Servicios</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./html/tarifas.html" class="nav-link">Tarifas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./html/masinformacion.html" class="nav-link">Mas Informacion</a>
+                                </li>
+                        </ul>
+                    </div>
+                </div>
+
+            <!-- Barra de Redes Sociales -->
+
+            <div class="row redes-sociales justify-content-end d-none d-lg-block">
+                <h2 class="subtitulo-hostel">Hostel Boutique</h2>
+                <div class="col-auto">
+                    <a href="http://www.instagram.com" class="icono icon-instagram instagram" data-toggle="tooltip" data-placement="bottom" title="Encuentranos en Instagram"></a>
+                    <a href="http://www.facebook.com" class="icono icon-facebook facebook" data-toggle="tooltip" data-placement="bottom" title="Encuentranos en Facebook"></a>
+                    <a href="https://twitter.com/MandalaHostel1" class="icono icon-twitter twitter" data-toggle="tooltip" data-placement="bottom" title="Encuentranos en Twitter"></a>
+                    <a href="http://www.whatsapp.com" class="icono icon-whatsapp whatsapp" data-toggle="tooltip" data-placement="bottom" title="Contactanos por Whatsapp"></a>
+                    <a href="http://www.facebook.com" class="icono icon-camera camera" data-toggle="tooltip" data-placement="bottom" title="Mira la galería"></a>
+                    <a href="https://www.accuweather.com/es/ar/el-bolson/10261/daily-weather-forecast/10261" class=" icono icon-cloud-sun clima" data-toggle="tooltip" data-placement="bottom" title="Clima en El Bolsón"></a>
+                    <a href= "https://www.google.com/maps/place/Hostel+Mandala/@-41.9430464,-71.5320273,17z/data=!3m1!4b1!4m5!3m4!1s0x961bbfadcf60178b:0xb4175bfe983f62bc!8m2!3d-41.9430504!4d-71.5298386" class="icono icon-location ubicacion" data-toggle="tooltip" data-placement="bottom" title="Ubicación"></a>
+                </div>
+            </div> 
+            
+
+            <!-- MENU RESPONSIVE XS -->
+            <div class="row responsive-row d-flex d-sm-none">
+                <div class="col">
+                    <h1 class="titulo-mandala3">Mandala</h1>
+                    <h2 class="subtitulo-hostel3">Hostel Boutique</h2>
+                    <button class="btn btn-menu3"></button><a href="#" class="icono3 icon-menu d-flex justify-content-between" id="btn-menu"></a></button>
+                    <img class="img-circle3" src="http://www.hostelmandala.com.ar/wpimages/wp6e136f76_06.png" alt="">
+                    <button class="btn btn-reservar3"><a href="html/reservas.html" class="icono-reservar3 icon-calendar" data-toggle="tooltip" data-placement="bottom" title="Reserve aquí"></a></button>
+                        <!-- <div class="formulario">
+                            <h2>Formulario de fechas</h2>
+                            <form>
+                                <label>Fecha 1:</label><br/>
+                                <input type="text" name="fecha1" id="fecha1"><br/>
+                                <label>Fecha 2:</label><br/>
+                                <input type="text" name="fecha2" id="fecha2"><br/>
+                            </form>
+                        </div> -->
+                </div>
+            </div>
+
+            <!-- MENU RESPONSIVE SM -->
+            <div class="row responsive-row d-none d-sm-block d-md-none">
+                <div class="col">
+                    <h1 class="titulo-mandala5">Mandala</h1>
+                    <h2 class="subtitulo-hostel5">Hostel Boutique</h2>
+                    <button class="btn btn-menu5"></button><a href="#" class="icono5 icon-menu d-flex justify-content-between" id="btn-menu"></a></button>
+                    <img class="img-circle5" src="http://www.hostelmandala.com.ar/wpimages/wp6e136f76_06.png" alt="">
+                    <button class="btn btn-reservar5"><a href="html/reservas.html" class="icono-reservar5 icon-calendar" data-toggle="tooltip" data-placement="bottom" title="Reserve aquí"></a></button>
+                </div>
+            </div>
+
+            <!-- MENU RESPONSIVE MD -->
+            <div class="row responsive-row d-none d-md-block d-lg-none">
+                <div class="col">
+                    <h1 class="titulo-mandala4">Mandala</h1>
+                    <h2 class="subtitulo-hostel4">Hostel Boutique</h2>
+                    <button class="btn btn-menu4"></button><a href="#" class="icono4 icon-menu d-flex justify-content-between" id="btn-menu"></a></button>
+                    <img class="img-circle4" src="http://www.hostelmandala.com.ar/wpimages/wp6e136f76_06.png" alt="">
+                    <button class="btn btn-reservar4"><a href="html/reservas.html" class="icono-reservar4 icon-calendar" data-toggle="tooltip" data-placement="bottom" title="Reserve aquí"></a></button>
+                </div>
+            </div>
+
+            <!-- Barra lateral derecha Responsive -->
+            <div class="barra">
+                <div class="row d-flex d-lg-none">
+                    <div class="col-md-3 barra-lateral-derecha" id="barra-lateral-derecha">
+                        <nav>
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link active icon-home">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="html/quienessomos.html" class="nav-link icon-users">Quienes Somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="html/servicios.html" class="nav-link icon-thumbs-up">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="html/tarifas.html" class="nav-link icon-dollar">Tarifas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="html/masinformacion.html" class="nav-link icon-info">Mas Informacion</a>
+                            </li>          
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+ 
+            <!-- Inicio no responsive -->
+            <div class="row letras d-none d-lg-block">
+                <div class="col-12 p-4">
+                    <h2 class=" titulo p-4"><strong>Mandala Hostel Boutique en El Bolsón, Patagonia Argentina</strong></h2>
+                    <br>
+                    <h5 class="subtitulo">Bienvenidos a <strong>Mandala</strong> <em>Hostel Boutique</em>, un lugar cálido y divertido pensado para que disfrutes de tu estadía en El Bolsón.</h5>
+                    <br>
+                    <h5 class="subtitulo">Nuestro hostel, tiene una capacidad máxima para 24 huéspedes y fue construido especialmente con todas las comodidades y calidez para que el viajero se sienta como en su propio hogar.</h5>
+                    <br>
+                    <h5 class="subtitulo">Atendido por sus propios dueños, en <strong>Mandala</strong> <em>Hostel Boutique</em> podrás compartir agradables momentos y experiencias con otros viajeros y gente de todo el mundo</h5>
+                    <br>
+                    <h5 class="subtitulo"><strong>Mandala</strong> <em>Hostel Boutique</em>, un lugar soñado por el viajero, ubicado a pocas cuadras del centro de El Bolsón.</h5>
+                    <br>
+                </div>
+            </div>
+
+            <!-- Inicio responsive XS -->
+            <div class="row letras2 d-flex d-sm-none ">
+                <div class="col-12 p-4">
+                    <h3 class=" titulo2 p-4"><strong>Mandala Hostel Boutique en El Bolsón, Patagonia Argentina</strong></h3>
+                    <br>
+                    <h6 class="subtitulo2">Bienvenidos a <strong>Mandala</strong> <em>Hostel Boutique</em>, un lugar cálido y divertido pensado para que disfrutes de tu estadía en El Bolsón.</h6>
+                    <br>
+                    <h6 class="subtitulo2">Nuestro hostel, tiene una capacidad máxima para 24 huéspedes y fue construido especialmente con todas las comodidades y calidez para que el viajero se sienta como en su propio hogar.</h6>
+                    <br>
+                    <h6 class="subtitulo2">Atendido por sus propios dueños, en <strong>Mandala</strong> <em>Hostel Boutique</em> podrás compartir agradables momentos y experiencias con otros viajeros y gente de todo el mundo</h6>
+                    <br>
+                    <h6 class="subtitulo2"><strong>Mandala</strong> <em>Hostel Boutique</em>, un lugar soñado por el viajero, ubicado a pocas cuadras del centro de El Bolsón.</h6>
+                    <br>
+                </div>
+            </div>
+
+
+            <!-- Inicio responsive SM -->
+            <div class="row letras4 d-none d-sm-block d-md-none ">
+                <div class="col-12 p-4">
+                    <h3 class=" titulo4 p-4"><strong>Mandala Hostel Boutique en El Bolsón, Patagonia Argentina</strong></h3>
+                    <br>
+                    <h6 class="subtitulo4">Bienvenidos a <strong>Mandala</strong> <em>Hostel Boutique</em>, un lugar cálido y divertido pensado para que disfrutes de tu estadía en El Bolsón.</h6>
+                    <br>
+                    <h6 class="subtitulo4">Nuestro hostel, tiene una capacidad máxima para 24 huéspedes y fue construido especialmente con todas las comodidades y calidez para que el viajero se sienta como en su propio hogar.</h6>
+                    <br>
+                    <h6 class="subtitulo4">Atendido por sus propios dueños, en <strong>Mandala</strong> <em>Hostel Boutique</em> podrás compartir agradables momentos y experiencias con otros viajeros y gente de todo el mundo</h6>
+                    <br>
+                    <h6 class="subtitulo4"><strong>Mandala</strong> <em>Hostel Boutique</em>, un lugar soñado por el viajero, ubicado a pocas cuadras del centro de El Bolsón.</h6>
+                    <br>
+                </div>
+            </div>
+
+            <!-- Inicio responsive MD -->
+            <div class="row letras3 d-none d-md-block d-lg-none ">
+                <div class="col-12 p-4">
+                    <h3 class=" titulo3 p-4"><strong>Mandala Hostel Boutique en El Bolsón, Patagonia Argentina</strong></h3>
+                    <br>
+                    <h6 class="subtitulo3">Bienvenidos a <strong>Mandala</strong> <em>Hostel Boutique</em>, un lugar cálido y divertido pensado para que disfrutes de tu estadía en El Bolsón.</h6>
+                    <br>
+                    <h6 class="subtitulo3">Nuestro hostel, tiene una capacidad máxima para 24 huéspedes y fue construido especialmente con todas las comodidades y calidez para que el viajero se sienta como en su propio hogar.</h6>
+                    <br>
+                    <h6 class="subtitulo3">Atendido por sus propios dueños, en <strong>Mandala</strong> <em>Hostel Boutique</em> podrás compartir agradables momentos y experiencias con otros viajeros y gente de todo el mundo</h6>
+                    <br>
+                    <h6 class="subtitulo3"><strong>Mandala</strong> <em>Hostel Boutique</em>, un lugar soñado por el viajero, ubicado a pocas cuadras del centro de El Bolsón.</h6>
+                    <br>
+                </div>
+            </div>
+
+        <div class="container justify-content-center">
+            <!-- Carousel No Responsive-->
+            <div class="row d-none d-lg-block">
+                <div class="col-3 mt-3 p-2"></div>
+                    <div class="col-6 mt-3 p-2">
+                        <div class="carousel slide" id="principal-carousel" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#principal-carousel" data-slid-to="0" class="active"></li>
+                                <li data-target="#principal-carousel" data-slid-to="1"></li>
+                                <li data-target="#principal-carousel" data-slid-to="2"></li>
+                                <li data-target="#principal-carousel" data-slid-to="3"></li>
+                            </ol>
+     
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/mandala.jpg" class="w-100" alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/interior.jpg"  alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/comedor.jpg" alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/habitacion.jpg" alt="">
+                                </div>
+                            </div>
+     
+                            <a href="#principal-carousel" class="carousel-control-prev" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Anterior</span>
+                            </a>
+            
+                            <a href="#principal-carousel" class="carousel-control-next" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Siguiente</span>
+                            </a>
+                        </div>
+                    </div>
+                <div class="col-3 mt-3 p-2"></div>
+            </div>
+
+            <!-- Carousel Responsive XS-->
+            <div class="row d-flex d-sm-none">
+                <div class="col-3 mt-3 p-2"></div>
+                    <div class="col-6 mt-3 p-2">
+                        <div class="carousel slide" id="principal-carousel" data-ride="carousel">
+                             <ol class="carousel-indicators">
+                               <li data-target="#principal-carousel" data-slid-to="0" class="active"></li>
+                               <li data-target="#principal-carousel" data-slid-to="1"></li>
+                               <li data-target="#principal-carousel" data-slid-to="2"></li>
+                               <li data-target="#principal-carousel" data-slid-to="3"></li>
+                             </ol>
+     
+                            <div class="carousel-inner">
+                                <div class="carousel-item2 active">
+                                    <img src="img/mandala.jpg" class="w-100" alt="">
+                                </div>
+                                <div class="carousel-item2">
+                                    <img src="img/interior.jpg"  alt="">
+                                </div>
+                                <div class="carousel-item2">
+                                    <img src="img/comedor.jpg" alt="">
+                                </div>
+                                <div class="carousel-item2">
+                                    <img src="img/habitacion.jpg" alt="">
+                                </div>
+                            </div>
+     
+                            <a href="#principal-carousel" class="carousel-control-prev" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Anterior</span>
+                            </a>
+            
+                            <a href="#principal-carousel" class="carousel-control-next" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Siguiente</span>
+                            </a>
+                        </div>
+                    </div>
+                <div class="col-3 mt-3 p-2"></div>
+            </div>
+
+            <!-- Carousel Responsive SM-->
+            <div class="row d-none d-sm-block d-md-none">
+                <div class="col-3 mt-3 p-2"></div>
+                    <div class="col-6 mt-3 p-2">
+                        <div class="carousel slide" id="principal-carousel" data-ride="carousel">
+                             <ol class="carousel-indicators">
+                               <li data-target="#principal-carousel" data-slid-to="0" class="active"></li>
+                               <li data-target="#principal-carousel" data-slid-to="1"></li>
+                               <li data-target="#principal-carousel" data-slid-to="2"></li>
+                               <li data-target="#principal-carousel" data-slid-to="3"></li>
+                             </ol>
+     
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/mandala.jpg" class="w-100" alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/interior.jpg"  alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/comedor.jpg" alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/habitacion.jpg" alt="">
+                                </div>
+                            </div>
+     
+                            <a href="#principal-carousel" class="carousel-control-prev" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Anterior</span>
+                            </a>
+            
+                            <a href="#principal-carousel" class="carousel-control-next" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Siguiente</span>
+                            </a>
+                        </div>
+                    </div>
+                <div class="col-3 mt-3 p-2"></div>
+            </div>
+
+            <!-- Carousel Responsive MD-->
+            <div class="row d-none d-md-block  d-lg-none">
+                <div class="col-3 mt-3 p-2"></div>
+                    <div class="col-6 mt-3 p-2">
+                        <div class="carousel slide" id="principal-carousel" data-ride="carousel">
+                             <ol class="carousel-indicators">
+                               <li data-target="#principal-carousel" data-slid-to="0" class="active"></li>
+                               <li data-target="#principal-carousel" data-slid-to="1"></li>
+                               <li data-target="#principal-carousel" data-slid-to="2"></li>
+                               <li data-target="#principal-carousel" data-slid-to="3"></li>
+                             </ol>
+     
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/mandala.jpg" class="w-100" alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/interior.jpg"  alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/comedor.jpg" alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/habitacion.jpg" alt="">
+                                </div>
+                            </div>
+            
+                            <a href="#principal-carousel" class="carousel-control-prev" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Anterior</span>
+                            </a>
+            
+                            <a href="#principal-carousel" class="carousel-control-next" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Siguiente</span>
+                            </a>
+                        </div>
+                    </div>
+                <div class="col-3 mt-3 p-2"></div>
+            </div> 
+        </div>
+    </div>
+
+        <!-- FOOTER XS -->
+        <footer class="footer">
+        <hr>
+            <div class="container">
+                <div class="row d-flex d-sm-none redes-sociales1 justify-content-center">
+                    <div class="col-auto">
+                        <a href="http://www.instagram.com" class="icono1 icon-instagram instagram" data-toggle="tooltip" data-placement="bottom" title="Encuentranos en Instagram"></a>
+                        <a href="http://www.facebook.com" class="icono1 icon-facebook facebook" data-toggle="tooltip" data-placement="bottom" title="Encuentranos en Facebook"></a>
+                        <a href="https://twitter.com/MandalaHostel1" class="icono1 icon-twitter twitter" data-toggle="tooltip" data-placement="bottom" title="Encuentranos en Twitter"></a>
+                        <a href="http://www.whatsapp.com" class="icono1 icon-whatsapp whatsapp" data-toggle="tooltip" data-placement="bottom" title="Contactanos por Whatsapp"></a>
+                        <a href="http://www.facebook.com" class="icono1 icon-camera camera" data-toggle="tooltip" data-placement="bottom" title="Mira la galería"></a>
+                        <a href="https://www.accuweather.com/es/ar/el-bolson/10261/daily-weather-forecast/10261" class=" icono1 icon-cloud-sun clima" data-toggle="tooltip" data-placement="bottom" title="Clima en El Bolsón"></a>
+                        <a href= "https://www.google.com/maps/place/Hostel+Mandala/@-41.9430464,-71.5320273,17z/data=!3m1!4b1!4m5!3m4!1s0x961bbfadcf60178b:0xb4175bfe983f62bc!8m2!3d-41.9430504!4d-71.5298386" class="icono1 icon-location ubicacion" data-toggle="tooltip" data-placement="bottom" title="Ubicación"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- FOOTER SM -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row d-none d-sm-block d-md-none redes-sociales2 justify-content-center">
+                    <div class="col-auto">
+                        <a href="http://www.instagram.com" class="icono2 icon-instagram instagram" data-toggle="tooltip" data-placement="bottom" title="Encuentranos en Instagram"></a>
+                        <a href="http://www.facebook.com" class="icono2 icon-facebook facebook" data-toggle="tooltip" data-placement="bottom" title="Encuentranos en Facebook"></a>
+                        <a href="https://twitter.com/MandalaHostel1" class="icono2 icon-twitter twitter" data-toggle="tooltip" data-placement="bottom" title="Encuentranos en Twitter"></a>
+                        <a href="http://www.whatsapp.com" class="icono2 icon-whatsapp whatsapp" data-toggle="tooltip" data-placement="bottom" title="Contactanos por Whatsapp"></a>
+                        <a href="http://www.facebook.com" class="icono2 icon-camera camera" data-toggle="tooltip" data-placement="bottom" title="Mira la galería"></a>
+                        <a href="https://www.accuweather.com/es/ar/el-bolson/10261/daily-weather-forecast/10261" class=" icono2 icon-cloud-sun clima" data-toggle="tooltip" data-placement="bottom" title="Clima en El Bolsón"></a>
+                        <a href= "https://www.google.com/maps/place/Hostel+Mandala/@-41.9430464,-71.5320273,17z/data=!3m1!4b1!4m5!3m4!1s0x961bbfadcf60178b:0xb4175bfe983f62bc!8m2!3d-41.9430504!4d-71.5298386" class="icono2 icon-location ubicacion" data-toggle="tooltip" data-placement="bottom" title="Ubicación"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+         <!-- FOOTER MD -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row d-none d-md-block d-lg-none redes-sociales3 justify-content-center">
+                    <div class="col-auto">
+                        <a href="http://www.instagram.com" class="icono3 icon-instagram instagram" data-toggle="tooltip" data-placement="bottom" title="Encuentranos en Instagram"></a>
+                        <a href="http://www.facebook.com" class="icono3 icon-facebook facebook" data-toggle="tooltip" data-placement="bottom" title="Encuentranos en Facebook"></a>
+                        <a href="https://twitter.com/MandalaHostel1" class="icono3 icon-twitter twitter" data-toggle="tooltip" data-placement="bottom" title="Encuentranos en Twitter"></a>
+                        <a href="http://www.whatsapp.com" class="icono3 icon-whatsapp whatsapp" data-toggle="tooltip" data-placement="bottom" title="Contactanos por Whatsapp"></a>
+                        <a href="http://www.facebook.com" class="icono3 icon-camera camera" data-toggle="tooltip" data-placement="bottom" title="Mira la galería"></a>
+                        <a href="https://www.accuweather.com/es/ar/el-bolson/10261/daily-weather-forecast/10261" class=" icono3 icon-cloud-sun clima" data-toggle="tooltip" data-placement="bottom" title="Clima en El Bolsón"></a>
+                        <a href= "https://www.google.com/maps/place/Hostel+Mandala/@-41.9430464,-71.5320273,17z/data=!3m1!4b1!4m5!3m4!1s0x961bbfadcf60178b:0xb4175bfe983f62bc!8m2!3d-41.9430504!4d-71.5298386" class="icono3 icon-location ubicacion" data-toggle="tooltip" data-placement="bottom" title="Ubicación"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+  
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mandala.js"></script>
+    <script>
+        $(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+        })
+    </script>
+</body>
+</html>
