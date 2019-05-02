@@ -1,0 +1,845 @@
+/* --- BODY --- */
+body {
+	background: #F9F5FE;
+}
+
+/* --- HEADER --- */
+
+.fm-nav a {
+    color: #fff;
+    padding: 15px;
+	opacity: 0%;
+}
+
+.titulo-mandala {
+	color: rgb(231, 236, 235);
+	position: relative; right:90px;
+	position: relative; top:10px;
+	font-family: 'Merriweather', sans-serif;
+	font-size: 50px;
+}
+
+.subtitulo-hostel {
+	color: rgb(231, 236, 235);
+	position: relative; right:-200px;
+	padding: 7px;
+	font-family: 'Merriweather', sans-serif;
+	font-size: 28px;
+}
+
+
+.fm-nav img {
+	width: 160px;
+	height: 150px;
+}
+
+.fm-nav {
+	height: 50px;
+	width: 1050px;
+	margin-left: 100px;
+	background: rgba(0,0,0,0.5);
+	background:linear-gradient(#000, #2C2C2B);
+}
+
+.fm-nav a:hover {
+	background: #4D4D4A;
+
+}
+
+/* --- PARRAFO DE BIENVENIDA --- */
+.letras {
+	font-family: 'Roboto', sans-serif;
+}
+
+.letras .titulo {
+	text-align: center;
+	font-family: 'Merriweather', sans-serif;
+	font-size: 35px;
+}
+
+.letras .subtitulo {
+	text-align: center;
+}
+
+
+/* --- IMAGEN DEL MANDALA --- */
+.img-circle {
+	width: 170px;
+	height: 170px;
+	border-radius: 150%;
+	/* -- margin-inline-start: -80px; -- */
+	position:absolute; top:-15px;
+	position:absolute; left:70px;
+}
+
+/* --- REDES SOCIALES -- */
+.redes-sociales {
+	padding: 10px;
+	margin-bottom: 40px;
+	background: #2C2C2B;
+	background:linear-gradient(#2c2c2b, #DADEDD);
+	margin-left: 100px;
+	height: 70px;
+	width: 1050px;
+}
+
+.redes-sociales .icono {
+	width: 50px;
+	height: 50px;
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+    right: -505px;
+    bottom: 55px;
+	margin: 0px 10px;
+	text-decoration: none;
+	transition: all .3s ease;
+}
+
+/* --- CAROUSEL ---*/
+.carousel-item {
+  width:640px;
+  height:360px;	
+}
+
+/*
+.redes-sociales .twitter {color: #1da1f2;}
+.redes-sociales .instagram {color: #833ab4;}
+.redes-sociales .facebook {color: #3b5998;}
+.redes-sociales .whatsapp {color: #18960e;}
+.redes-sociales .ubicacion {color: #860c07;}
+.redes-sociales .camera {color: #cba812;}
+.redes-sociales .clima {color: #9d3e00;}
+*/
+
+
+
+/* --- RESPONSIVE --- */
+
+/* --- HEADER --- */
+
+.responsive-row {
+    background-image: url(http://llaollao.com/resources/img/hero-home1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-circle2 {
+	width: 120px;
+	height: 100px;
+	border-radius: 150%;
+	/* -- margin-inline-start: -80px; -- */
+    position:relative; 
+    left:-60px;
+    bottom: 200px;
+}
+
+.titulo-mandala2 {
+	color: rgb(231, 236, 235);
+	position:relative; right:500px;
+	position: relative; top:10px;
+	font-family: 'Merriweather', sans-serif;
+	font-size: 50px;
+	left: 80px;
+}
+
+.subtitulo-hostel2 {
+	color: rgb(231, 236, 235);
+	position: relative; right:590px;
+	padding: 7px;
+	font-family: 'Merriweather', sans-serif;
+	font-size: 28px;
+	left: 65px;
+}
+
+/* --- BOTON DE RESERVAR --- */
+.btn-reservar {
+	width: 43px;
+	height: 43px;
+	border-radius: 250%;
+	background: #676763;
+	color: #fff;
+	position: relative;
+	right: -950px;
+	top: -195px;
+	text-decoration: none;
+}
+
+.icono-reservar {
+	font-size: 25px;
+	position: relative;
+	right: 9px;
+	top: -5px;
+	color: #fff;
+	text-align: center;
+	display: inline-block;
+}
+
+/* --- BOTON DE MENU --- */
+
+.btn-menu {
+	width: 43px;
+	height: 43px;
+	border-radius: 250%;
+	background: #676763;
+	color: #fff;
+	position: relative;
+    right: -1150px;
+    bottom: 97px;
+	text-decoration: none;
+}
+
+.icono2 {
+	font-size: 25px;
+	position: relative;
+	right: -1155px;
+	top: -130px;
+	border-radius: 250%;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+}
+
+/* --- BARRA LATERAL DERECHA --- */
+
+header .barra .menu {
+	color: #fff;
+	position: relative;
+	left: 435px;
+	bottom: -5px;
+	font-size: 20px;
+}
+
+header .fondo-enlace {
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+	background: rgba(0,0,0,0.5);
+	z-index: 99;
+	display: none;
+}
+
+header .fondo-enlace.active {
+	display: block;
+}
+
+
+header .barra-lateral-derecha {
+	width: 15%;
+	position: fixed;
+	z-index: 100;
+	right: 0;
+	top: 0;
+	background: rgba(0,0,0,.85);
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	transform: translateX(100%);
+	transition: all .3s ease;
+	overflow: scroll;
+}
+
+header .barra-lateral-derecha.active {
+	transform: translateX(0%);
+}
+
+header .barra-lateral-derecha nav a {
+padding: 20px;
+color: #fff;
+}
+
+header .barra-lateral-derecha nav a:hover {
+color: #3d3c3c;
+background: #fff;
+
+}
+/* --- SERVICIOS ---*/
+
+.btn-servicios {
+	background: #860c07;
+	color: #fff;
+	
+}
+
+.col-servicios {
+	position: relative;
+	left: 100px;
+}
+
+.comodidades {
+	position: relative;
+	left: 100px;
+}
+
+
+.servicios {
+	text-align: center;
+	font-family: 'Merriweather', sans-serif;
+	font-size: 35px;
+}
+
+
+/* --- Mas informacion --- */
+.actividades {
+	padding: 20px;
+	margin-bottom: 40px;
+}
+
+.actividades .sport {
+	width: 70px;
+	height: 70px;
+	font-size: 40px;
+	color: #373535;
+	text-align: center;
+	background: #cbcbcb;
+	display: inline-block;
+	position: relative;
+  bottom: -15px;
+	margin: 10px 10px;
+	text-decoration: none;
+	border-radius: 100px;
+	transition: all .3s ease;
+}
+
+.titulo {
+	text-align: center;
+}
+
+.paisajes {
+	text-align: center;
+	font-family: 'Merriweather', sans-serif;
+	position:absolute; right:200px;
+	font-size: 35px;
+}
+
+.actividades {
+	margin-left: 100px;
+}
+
+/* --- BARRAS DE PROGRESO --- */
+.progress-bar-color1 {
+	background: #860c07;
+}
+
+.progress-bar-color2 {
+	background: #cba812;
+}
+
+.progress-bar-color3 {
+	background: #599190;
+}
+
+.votacion .titulo {
+	text-align: center;
+}
+
+/* --- TARIFAS --- */
+.habitaciones {
+	font-family: 'Merriweather', sans-serif;
+	font-size: 35px;
+ }
+ 
+ /* --- Boton de resevar habitaciones --- */
+ .btn-outline:hover {
+	 cursor: pointer;
+	 background: #860c07;
+	 color: #fff;
+ }
+ .btn-outline {
+	 background: #9d3e00;
+	 color: #fff;
+ }
+ 
+ /* --- Boton de finalizar reserva check in */
+ .btn-color {
+	 background: #9d3e00;
+	 color: #fff;
+ }
+ 
+ .btn-color:hover {
+	 background: #921a01;
+	 color: #fff;
+ }
+
+ .temporada {
+	text-align: center;
+}
+
+.table-color {
+	background: #9d3e00;
+	color: #fff;
+	
+}
+
+.btn-tarifas {
+	background: rgba(0,0,0,.85);
+	color: #fff;
+	position: relative;
+	/*left: 600px;*/
+	width: 100%;
+	bottom: 2px;
+}
+
+.btn-tarifas:hover {
+	background: #40403F;
+	color: #fff;
+}
+
+.cuadro-tarifas {
+	width: 100%;
+}
+
+.btn-temporadas {
+	background: rgba(0,0,0,.85);
+	color: #fff;
+	position: relative;
+	/*left: -15px;*/
+	width: 100%;
+	/*bottom: 56px;*/
+}
+
+.btn-temporadas:hover {
+	background: #40403F;
+	color: #fff;
+}
+
+.cuadro-temporadas {
+	width: 100%;
+}
+
+/* --- RESPONSIVE XS --- */
+
+/* --- icono de menu --- */
+
+.btn-menu3 {
+	width: 23px;
+	height: 23px;
+	border-radius: 250%;
+	background: #676763;
+	color: #fff;
+	position: relative;
+    right: -400px;
+    bottom: 74px;
+	text-decoration: none;
+}
+
+.icono3 {
+	font-size: 10px;
+	position: relative;
+	right: -406px;
+	top: -91px;
+	border-radius: 250%;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+}
+
+/* --- boton de reservar --- */
+
+.btn-reservar3 {
+	width: 23px;
+	height: 23px;
+	border-radius: 250%;
+	background: #676763;
+	color: #fff;
+	position: relative;
+	right: -280px;
+	top: -130px;
+	text-decoration: none;
+}
+
+.icono-reservar3 {
+	font-size: 10px;
+	position: relative;
+	right: 7px;
+	top: -11px;
+	color: #fff;
+	text-align: center;
+	display: inline-block;
+}
+
+.img-circle3 {
+	width: 80px;
+	height: 70px;
+	border-radius: 150%;
+	/* -- margin-inline-start: -80px; -- */
+    position:relative; 
+    left:-10px;
+    bottom: 115px;
+}
+
+.titulo-mandala3 {
+	color: rgb(231, 236, 235);
+	position:relative; right:500px;
+	position: relative; top:10px;
+	font-family: 'Merriweather', sans-serif;
+	font-size: 30px;
+	left: 80px;
+}
+
+.subtitulo-hostel3 {
+	color: rgb(231, 236, 235);
+	position: relative; right:590px;
+	padding: 7px;
+	font-family: 'Merriweather', sans-serif;
+	font-size: 18px;
+	left: 65px;
+}
+
+/* --- parrafo de bienvenida --- */
+.letras2 {
+	font-family: 'Roboto', sans-serif;
+}
+
+.titulo2 {
+	text-align: center;
+	font-family: 'Merriweather', sans-serif;
+	font-size: 25px;
+}
+
+.subtitulo2 {
+	text-align: center;
+}
+
+/* --- carousel principal ---*/
+.carousel-inner {
+    width:250px;
+    height:160px;
+    position: relative;
+    right: 20px;	
+  }
+
+ /* --- footer --- */
+ .redes-sociales1 {
+	padding: 10px;
+	margin-bottom: 40px;
+	margin-left: 100px;
+	height: 70px;
+	width: 1050px;
+}
+
+.redes-sociales1 .icono1 {
+	width: 33px;
+	height: 33px;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	background: #cbcbcb;
+	display: inline-block;
+	position: relative;
+    right: 405px;
+    bottom: -5px;
+	margin: 0px 10px;
+	text-decoration: none;
+	border-radius: 100px;
+	transition: all .3s ease;
+}
+
+.footer {
+    background: #DADEDD;
+}
+
+
+
+.redes-sociales1 .twitter {background: #1da1f2;}
+.redes-sociales1 .instagram {background: #833ab4;}
+.redes-sociales1 .facebook {background: #3b5998;}
+.redes-sociales1 .whatsapp {background: #18960e;}
+.redes-sociales1 .ubicacion {background: #860c07;}
+.redes-sociales1 .camera {background: #cba812;}
+.redes-sociales1 .clima {background: #9d3e00;} 
+
+  /* --- RESPONSIVE SM --- */
+
+/* --- icono de menu --- */
+
+.btn-menu5 {
+	width: 33px;
+	height: 33px;
+	border-radius: 250%;
+	background: #676763;
+	color: #fff;
+	position: relative;
+    right: -480px;
+    bottom: 74px;
+	text-decoration: none;
+}
+
+.icono5 {
+	font-size: 15px;
+	position: relative;
+	right: -486px;
+	top: -97px;
+	border-radius: 250%;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+}
+
+/* --- boton de reservar --- */
+
+.btn-reservar5 {
+	width: 33px;
+	height: 33px;
+	border-radius: 250%;
+	background: #676763;
+	color: #fff;
+	position: relative;
+	right: -350px;
+	top: -140px;
+	text-decoration: none;
+}
+
+.icono-reservar5 {
+	font-size: 15px;
+	position: relative;
+	right: 7px;
+	top: -5px;
+	color: #fff;
+	text-align: center;
+	display: inline-block;
+}
+
+.img-circle5 {
+	width: 80px;
+	height: 70px;
+	border-radius: 150%;
+	/* -- margin-inline-start: -80px; -- */
+    position:relative; 
+    left:-10px;
+    bottom: 125px;
+}
+
+.titulo-mandala5 {
+	color: rgb(231, 236, 235);
+	position:relative; right:500px;
+	position: relative; top:10px;
+	font-family: 'Merriweather', sans-serif;
+	font-size: 30px;
+	left: 80px;
+}
+
+.subtitulo-hostel5 {
+	color: rgb(231, 236, 235);
+	position: relative; right:590px;
+	padding: 7px;
+	font-family: 'Merriweather', sans-serif;
+	font-size: 18px;
+	left: 65px;
+}
+
+/* --- parrafo de bienvenida --- */
+.letras4 {
+	font-family: 'Roboto', sans-serif;
+}
+
+.titulo4 {
+	text-align: center;
+	font-family: 'Merriweather', sans-serif;
+	font-size: 25px;
+}
+
+.subtitulo4 {
+	text-align: center;
+}
+
+/* --- carousel principal ---*/
+.carousel-inner {
+    width:250px;
+    height:160px;
+    position: relative;
+    right: 20px;	
+  }
+
+  /* --- footer --- */
+
+  .redes-sociales2 {
+	padding: 10px;
+	margin-bottom: 40px;
+	margin-left: 100px;
+	height: 70px;
+	width: 1050px;
+}
+
+
+.redes-sociales2 .icono2 {
+	width: 33px;
+	height: 33px;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	background: #cbcbcb;
+	display: inline-block;
+	position: relative;
+    right: 65px;
+    top: 10px;
+	margin: 0px 10px;
+	text-decoration: none;
+	border-radius: 100px;
+	transition: all .3s ease;
+}
+
+
+
+.redes-sociales2 .twitter {background: #1da1f2;}
+.redes-sociales2 .instagram {background: #833ab4;}
+.redes-sociales2 .facebook {background: #3b5998;}
+.redes-sociales2 .whatsapp {background: #18960e;}
+.redes-sociales2 .ubicacion {background: #860c07;}
+.redes-sociales2 .camera {background: #cba812;}
+.redes-sociales2 .clima {background: #9d3e00;}
+
+.footer {
+    background: #DADEDD;
+}
+
+  
+/* --- RESPONSIVE MD --- */
+
+/* --- icono de menu --- */
+
+.btn-menu4 {
+	width: 43px;
+	height: 43px;
+	border-radius: 250%;
+	background: #676763;
+	color: #fff;
+	position: relative;
+    right: -650px;
+    bottom: 86px;
+	text-decoration: none;
+}
+
+
+.icono4 {
+	font-size: 20px;
+	position: relative;
+	right: -658px;
+	top: -118px;
+	border-radius: 250%;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+}
+
+
+/* --- boton de reservar --- */
+
+.btn-reservar4 {
+	width: 43px;
+	height: 43px;
+	border-radius: 250%;
+	background: #676763;
+	color: #fff;
+	position: relative;
+	right: -480px;
+	top: -173px;
+	text-decoration: none;
+}
+
+.btn-reservar4:hover {
+    background: #fff;
+}
+
+.icono-reservar4 {
+	font-size: 20px;
+	position: relative;
+	right: 5px;
+	top: -3px;
+	color: #fff;
+	text-align: center;
+	display: inline-block;
+}
+
+.icono-reservar4:hover {
+    color:#676763; 
+}
+
+.img-circle4 {
+	width: 100px;
+	height: 90px;
+	border-radius: 150%;
+	/* -- margin-inline-start: -80px; -- */
+    position:relative; 
+    left:-10px;
+    bottom: 155px;
+}
+
+.titulo-mandala4 {
+	color: rgb(231, 236, 235);
+	position:relative; right:500px;
+	position: relative; top:10px;
+	font-family: 'Merriweather', sans-serif;
+	font-size: 35px;
+	left: 120px;
+}
+
+.subtitulo-hostel4 {
+	color: rgb(231, 236, 235);
+	position: relative; right:590px;
+	padding: 7px;
+	font-family: 'Merriweather', sans-serif;
+	font-size: 25px;
+	left: 85px;
+}
+
+/* --- parrafo de bienvenida --- */
+.letras3 {
+	font-family: 'Roboto', sans-serif;
+}
+
+.titulo3 {
+	text-align: center;
+	font-family: 'Merriweather', sans-serif;
+	font-size: 25px;
+}
+
+.subtitulo3 {
+	text-align: center;
+}
+
+/* --- footer --- */
+
+.redes-sociales3 {
+	padding: 10px;
+	margin-bottom: 40px;
+	margin-left: 100px;
+	height: 70px;
+	width: 1050px;
+}
+
+.redes-sociales3 .icono3 {
+	width: 43px;
+	height: 43px;
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+	background: #cbcbcb;
+	display: inline-block;
+	position: relative;
+    right: 15px;
+    top: 5px;
+	margin: 0px 10px;
+	text-decoration: none;
+	border-radius: 100px;
+	transition: all .3s ease;
+}
+
+
+
+.redes-sociales3 .twitter {background: #1da1f2;}
+.redes-sociales3 .instagram {background: #833ab4;}
+.redes-sociales3 .facebook {background: #3b5998;}
+.redes-sociales3 .whatsapp {background: #18960e;}
+.redes-sociales3 .ubicacion {background: #860c07;}
+.redes-sociales3 .camera {background: #cba812;}
+.redes-sociales3 .clima {background: #9d3e00;}
+
+.footer {
+    background: #DADEDD;
+}
